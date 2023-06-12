@@ -3,6 +3,5 @@ numpy
 pandas
 scipy
 matplotlib
-sklearn
 statsmodels
 scikit-learn
