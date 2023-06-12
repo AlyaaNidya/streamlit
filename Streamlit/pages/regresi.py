@@ -118,6 +118,7 @@ if user_input != 'None':
     st.markdown(md_results1)
     md_results2 = f"R^2 memiliki nilai sebesar **=** **{rsq:.2f}**."
     st.markdown(md_results2)
+    st.header('Uji Asumsi Residual IIDN')
     md_results3 = f'Uji residual identiknya adalah **=** **{Glejser_test.Glejser_test(X, Y).glejser_test()}**.'
     st.markdown(md_results3)
     md_results4 = f'Uji residual independen adalah **=** **{dwtest(resids=np.array(params))}**.'
