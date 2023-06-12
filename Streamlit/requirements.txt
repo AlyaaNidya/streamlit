@@ -4,6 +4,4 @@ pandas
 scipy
 matplotlib
 sklearn
-Glejser_test
-Heteroscedasticity_test_general
 statsmodels
