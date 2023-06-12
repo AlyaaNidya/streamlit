@@ -5,4 +5,3 @@ scipy
 matplotlib
 sklearn
 statsmodels
-Heteroscedasticity_test_general
